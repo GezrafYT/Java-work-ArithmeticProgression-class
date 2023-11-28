@@ -1,3 +1,5 @@
+package class_usage_practice;
+
 import java.util.Scanner;
 
 public class ArithmeticProgression
@@ -12,7 +14,7 @@ public class ArithmeticProgression
 
     public void printGeneralSeries()
     {
-        System.out.println("Formula: aN = fM + diff(n-1)");
+        System.out.println("Formula: aN = " + _fM + " + " + _diff + "(n-1)");
     }
 
     public int memberCalculation(int n)
